@@ -1,0 +1,420 @@
+
+// VARIABLES -------------------
+//colors used in article
+$template_color--main--blue: #1c5692;
+$template_color--accent--red: #e63946;
+$template_color--accent--green: #06d6a0;
+$template_color--accent--yellow: #ffcc08;
+$template_color--accent--blue: #25a5c4;
+$template_color--accent--orange: #F36E21;
+$template_color--accent--off-white: #e8ebe4;
+
+$article_color--accent: $template_color--main--blue;
+
+// ------------- TEMPLATE IMPORT ---------------
+// TEMPLATE STYLES -- *put in scss/partials" folder
+@import "partials/template";
+@import "partials/dps-interactions";
+
+
+
+.article {
+
+  &_img-div--back-to-back {
+    overflow: hidden;
+    margin: 40px 40px 8% 40px;
+
+    @include media($medium-viewport) {
+      margin: 0px;
+    }
+
+    @include media($small-viewport) {
+      margin: 20px 0px 10%;
+    }
+  }
+
+  &_back-to-back {
+    width: auto;
+    float: left;
+    position: relative;
+    z-index: 2;
+
+    &.hayden {
+      width: 46.6154%;
+    }
+
+    &.olivia {
+      width: 53.3846%;
+    }
+  }
+
+  &_see-more--holder {
+    height: 400px;
+
+    @include media($small-viewport) {
+      height: 350px;
+    }
+
+    &--project-overview {
+      height: 300px;
+
+      @include media($small-viewport) {
+        height: 250px;
+      }
+    }
+
+    &--drop-down {
+      height: 75px;
+
+      @include media($small-viewport) {
+        height: 55px;
+      }
+    }
+  }
+
+  &_show {
+    position: absolute;
+  }
+//
+//  //&_button--read-more {
+//  //  margin: 15px auto 30px;
+//
+//  //  @include media($medium-viewport) {
+//  //    margin: 12px auto 15px;
+//  //    width: 40%;
+//  //    height: 40px;
+//
+//  //    p {
+//  //      padding: 5px;
+//  //      font-size: 20px;
+//  //    }
+//  //  }
+//
+//  //  @include media($small-viewport) {
+//  //    margin: 10px auto 15px;
+//  //    width: 60%;
+//  //    height: 40px;
+//
+//  //    p {
+  //      padding: 5px;
+  //      font-size: 20px;
+  //    }
+  //  }
+  //}
+//
+  &_label {
+    height: 0px;
+    //margin-top: 30px;
+    //padding: 0 5%;
+    //border-radius: 30px;
+    padding-bottom: 22%;
+    position: absolute;
+
+    @include media($medium-viewport) {
+      padding-bottom: 24%;
+      margin-top: 20px;
+    }
+
+    @include media($small-viewport) {
+      padding-bottom: 24%;
+      margin-top: 0px;
+    }
+
+    &.christine-graham {
+      margin-top: 0px;
+    }
+
+    svg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+      path {
+        fill: #1c5692;
+      }
+
+      @include media($small-viewport) {
+        margin: 0px 0px 10px;
+      }
+    }
+
+    p.article_learn-more {
+      font-size: 40px;
+      padding: 0px 40px;
+      color: #1c5692;
+      margin: 0 auto;
+      margin-top: 27%;
+
+      @include media($small-viewport) {
+        //color: #1c5692;
+        //margin: 0 auto;
+        font-size: 28px;
+        padding: 0px 0px;
+        margin-top: 32%;
+      }
+    }
+  }
+
+  &_student-researcher--name {
+    margin-bottom: 0px;
+
+    &.hayden {
+      color: #25a5c4;
+    }
+
+    &.olivia {
+      color: #e63946;
+    }
+  }
+
+  &_advisor--name {
+    &.graham {
+      color: #e63946;
+
+      @include media($small-viewport) {
+        margin: 10px 0px;
+      }
+    }
+
+    &.christine {
+      color: #25a5c4;
+
+      @include media($small-viewport) {
+        margin: 10px 0px;
+      }
+    }
+  }
+
+  &_student-researcher--title {
+    margin: 0px 40px 10px;
+
+    @include media($medium-viewport) {
+      margin: 0px;
+    }
+
+    @include media($small-viewport) {
+      margin: 5px 0px 0px 0px;
+    }
+
+    &.hayden {
+      color: #25a5c4;
+    }
+
+    &.olivia {
+      color: #e63946;
+    }
+  }
+
+  &_hr--thick {
+    border: none;
+    height: 6px;
+    color: #FFF; /* old IE */
+    background-color: #FFF;
+  }
+
+
+  &_accordion-items{
+    @include media($medium-viewport) {
+      padding-left: 20px;
+    }
+
+    @include media($small-viewport) {
+      padding-left: 20px;
+      font-size: 18px;
+    }
+
+  }
+
+}
+
+.article_img-div--graham-christine {
+  overflow: hidden;
+  margin: 0px;
+  padding-bottom: 8%;
+  //padding: 50px;
+
+  @include media($small-viewport) {
+    margin: 3px 0px 0px 0px;
+    padding-bottom: 8%;
+  }
+
+  img {
+    width: 40%;
+    border-radius: 100%;
+    z-index: 2;
+    position: relative;
+    float: left;
+  }
+
+  img.christine {
+    float: left;
+    margin: 7% 0% 0% 7%;
+  }
+
+  img.graham {
+    float: right;
+    margin: 7% 7% 0% 0%;
+  }
+
+  .graham-svg {
+    position: absolute;
+    width: 100%;
+    circle {
+      stroke: #e63946;
+    }
+  }
+
+  .christine-svg {
+    position: absolute;
+    width: 100%;
+    circle {
+      stroke: #25a5c4;
+    }
+  }
+}
+
+
+.article_active-signifier {
+  width: auto;
+  float: left;
+  //opacity: .5;
+
+  &.hayden {
+        width: 59%;
+    position: absolute;
+    height: 0px;
+    top: -8%;
+    left: 1%;
+    padding-bottom: 100%;
+  }
+
+  &.olivia {
+    width: 56%;
+    //background: green;
+    position: absolute;
+    //top: 5%;
+    left: 42%;
+
+    height: 0px;
+    padding-bottom: 100%;
+  }
+
+  &.christine {
+    width: 53%;
+    //position: absolute;
+    //top: -2px;
+    //left: -6px;
+    position: absolute;
+
+    height: 0px;
+    padding-bottom: 53%;
+  }
+
+  &.graham {
+    width: 47%;
+    position: absolute;
+    height: 0px;
+    padding-bottom: 52%;
+    left: 54%;
+    top: 4%;
+  }
+
+  svg {
+    position: relative;
+
+    &.hayden {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+
+      @include media($small-viewport) {
+        //left: 5px;
+      }
+
+      path {
+        fill: #25a5c4;
+      }
+    }
+
+    &.olivia {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+
+
+      //top: 40px;
+      //left: -25px;
+
+      @include media($small-viewport) {
+        //top: 20px;
+        //left: -15px;
+      }
+
+      path {
+        fill: #e63946;
+      }
+    }
+  }
+}
+
+
+
+h2 {
+  margin-top: 45px;
+
+  @include media($small-viewport) {
+    margin-top: 20px;
+  }
+}
+
+h4 {
+  margin-top: 20px;
+
+  @include media($small-viewport) {
+    margin-top: 15px;
+  }
+}
+
+.article_accordion {
+  width: 100%;
+  background: #12385f;
+  color: white;
+  border-bottom: none;
+  padding: 10px 20px;
+  height: 60px;
+
+  @include media($medium-viewport) {
+    padding: 15px 20px;
+    margin: 12px auto 15px;
+  }
+
+  @include media($small-viewport) {
+    height: 45px;
+    margin: 0px;
+    margin-bottom:15px;
+    padding: 8px 20px;
+    margin-top: 5px;
+    font-size: 22px;
+  }
+
+  span {
+    float: right;
+  }
+}
+
+.article_accordion-holder {
+  margin-top: 40px;
+
+  @include media($medium-viewport) {
+    margin-top: 20px;
+  }
+}
+
+#shittyHeight {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -10000;
+}

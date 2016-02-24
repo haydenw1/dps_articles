@@ -1,0 +1,154 @@
+
+// ------------- TEMPLATE IMPORT ---------------
+// TEMPLATE STYLES -- *put in scss/partials" folder
+@import "partials/template";
+
+
+
+// VARIABLES -------------------
+
+$article_color--accent: $template_color--accent--blue;
+
+
+
+.article {
+
+  &_img-div--back-to-back {
+    overflow: hidden;
+    margin: 40px 40px 0px 40px;
+  }
+
+  &_back-to-back {
+    width: auto;
+    float: left;
+    position: relative;
+    z-index: 2;
+
+    &.hayden {
+      width: 278.755px;
+    }
+
+    &.olivia {
+      width: 319.2447px;
+    }
+  }
+
+  &_see-more--holder {
+    height: 400px;
+
+    &--project-overview {
+      height: 300px;
+    }
+  }
+
+  &_show {
+    position: absolute;
+  }
+
+  &_button--read-more {
+    margin: 15px auto 30px;
+  }
+
+  &_label {
+    color: white;
+    background: #909090;
+    height: 75%;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  &_student-researcher--name {
+    margin-bottom: 0px;
+
+    &.hayden {
+      color: #25a5c4;
+    }
+
+    &.olivia {
+      color: #e63946;
+    }
+  }
+
+  &_student-researcher--title {
+    margin: 0px 40px 10px;
+
+    &.hayden {
+      color: #25a5c4;
+    }
+
+    &.olivia {
+      color: #e63946;
+    }
+  }
+
+  &_hr--thick {
+    border: none;
+    height: 6px;
+    color: #FFF; /* old IE */
+    background-color: #FFF;
+  }
+
+}
+
+
+.article_active-signifier {
+  width: auto;
+  float: left;
+  //opacity: .5;
+
+  &.hayden {
+    width: 278.755px;
+    height: 545px;
+    //background: red;
+    position: absolute;
+  }
+
+  &.olivia {
+    width: 319.2447px;
+    //background: green;
+    position: absolute;
+    height: 545px;
+    left: 364px;
+  }
+
+  svg {
+    position: relative;
+
+    &.hayden {
+      width: 350px;
+
+      path {
+        fill: #25a5c4;
+      }
+    }
+
+    &.olivia {
+      top: 40px;
+      left: -25px;
+
+      path {
+        fill: #e63946;
+      }
+    }
+  }
+}
+
+.article_img-div--graham-christine {
+  overflow: hidden;
+  margin: 40px 40px 0px 40px;
+
+  img {
+    float: left;
+    width: 300px;
+  }
+
+  .graham {
+    //float: left;
+    //width: 300px;
+  }
+
+  .christine {
+
+  }
+}

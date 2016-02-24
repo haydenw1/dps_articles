@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>About the App</title>
+    <link rel="stylesheet" type="text/css" href="css/about-the-app.css">
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/dps_api/dpsHTMLGestureAPI.min.js"></script>
+    <script src="js/dps_api/api.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="js/dps-interactions.js"></script>
+    <script src="js/orphanKiller.js"></script>
+  </head>
+  <body>
+
+    <!-- element that 'contains' all the content on the page-->
+
+    <div class="navigation article_navigation">
+      <div class="navigation_back-button">
+        <a href="goto://FolioNavigation/lastview">BACK</a>
+      </div>
+    </div>
+
+    <div class="template_container">
+
+      <!-- lead in that helps describe title -->
+      <!--<p class="title-lead-in">How do students define their major?</p>-->
+      <!-- article title -->
+      <h1>About the App</h1>
+      <p class="template_introduction">The digital publishing industry is changing at an exponential pace. Rochester Institute of Technology students had the opportunity to work with Adobe prerelease software to create the RIT Media Sciences app and apply the techniques they have been learning in the classroom. Learn more about the project, technology, and the people who made it&nbsp;possible.</p>
+
+      <!-- student image -->
+      <div class="template_img-div template_top">
+        <img src="assets/OliviaHayden1-edited.jpg"/>
+      </div>
+
+      <!--titles and paragraphs that switch depending on the selected student...content in the <div class="switch"> is variable-->
+      <h2>Project Overview</h2>
+
+      <div class="interaction--see-more--holder article_see-more--holder article_see-more--holder--project-overview" id="3">
+        <p>The School of Media Sciences focuses on educating for the transition of print to digital publishing. Past experience with Adobe DPS has helped our students and alumni gain expertise in how to communicate when publications shift from print to digital devices. In the summer of 2015, two students were given the opportunity to work with the prerelease of Adobe Publishing Solution to solve the challenge of a constant push of new content that we see in app devices today.</p>
+
+        <p>With the help of two staff advisors and an Adobe DPS sponsor, the students were asked to create an app for the School of Media Sciences that included interactivity, highlights the skills that our students acquire, and showcase the new possibilities in digital publishing. This project and its result is a great example of programming and design coming together, a combination of the aesthetic and technical design skills or students learn in the classroom.</p>
+
+        <p>Through this partnership with School of Media Sciences and Adobe, this app will become a primary recruitment and educational tool for the school - enticing prospective applicants, current students and alumni to consider app communication as a form of publishing.</p>
+
+      <div class="interaction_bottom-shadow" id="3"></div>
+
+      </div>
+
+      <div class="interaction--button interaction--see-more--button interaction--blink article_button--read-more"  title="blink2" id="3">
+        <p>+ Read More</p>
+      </div>
+
+      <h2>Student Researchers</h2>
+
+      <div class="template_img-div article_img-div--back-to-back">
+        <img class="interaction--touch article_back-to-back hayden" id="1" title="hayden" src="assets/hayden_back-to-back_cropped-masked.png"/>
+        <div class="interaction--active-signifier article_active-signifier hayden" id="1" title="hayden">
+
+
+          <svg class="hayden" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 77"><title>Ampersands_small-version</title><path d="M54.45,62.67c2.63,3.94,5.48,8,8.76,12.49H46.67C45.79,74,44.81,72.53,43.6,71a34.66,34.66,0,0,1-18.18,5.48c-13.25,0-23.66-5.81-23.66-19.28C1.76,43.06,11.83,37,22.68,33a39.39,39.39,0,0,1-1.86-11.5C20.82,9.87,30.68,1,43.05,1,53.13,1,62.11,6,62.11,15.9c0,12.71-11.39,17.09-22.67,21,1.2,2.52,2.63,5,4.05,7.45,1.64,3.18,3.29,6,5,8.87a72.73,72.73,0,0,0,9.86-13.36l10,6.24A119.84,119.84,0,0,1,54.45,62.67Zm-16.87-.33c-2.52-3.83-4.82-7.45-6.13-9.86-1.86-3.51-3.61-6.9-5.15-10.3C20.82,45,17,49,17,55.55s4.93,10,10.73,10A19.7,19.7,0,0,0,37.58,62.34ZM36,28.49C43.71,25.87,49.63,23,49.63,17.21c0-4.16-2.63-6.13-6-6.13-4.16,0-8.76,3.51-8.76,10.3A23.68,23.68,0,0,0,36,28.49Z"/></svg>
+
+
+        </div>
+        <img class="interaction--touch article_back-to-back olivia" id="1" title="olivia" src="assets/olivia_back-to-back_cropped-masked.png"/>
+        <div class="interaction--active-signifier article_active-signifier olivia" id="1" title="olivia">
+
+
+          <svg class="olivia" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 97"><title>Ampersands_small-version</title><path d="M24.49,41.33a9.56,9.56,0,0,0-2.77-5.46c-3.22-3.22-7.1-3.07-10.69.52-5.83,5.83-5.53,16.3.6,22.44a21,21,0,0,0,5.31,4c4.41-4.26,8-5.61,9.95-3.66,1,1,.9,3.44-0.37,4.71-1,1-2.69,1.5-5,1.57s-3.29.3-4.49,1.5c-3.66,3.66-2.77,9.95,2.17,14.88,9.5,9.5,25.88,7.48,38.14-4.79,11.29-11.29,13.39-26,4.94-34.4-6.06-6.06-14-5.46-20.79,1.35-6.13,6.13-7.1,12.94-2.47,17.58,2.47,2.47,5.76,2.92,7.7,1,1-1,.9-2.39-0.37-3.66a2.63,2.63,0,0,0-.67-0.52c-0.52-.37-1-0.67-1.12-0.82-0.82-.82-0.3-3.14,1.12-4.56,1.87-1.87,4.94-2.09,6.58-.45,2.69,2.69,1.94,7.93-1.57,11.44-4.19,4.19-10.25,4.26-14.36.15a14.1,14.1,0,0,1-3.89-10.32c0.15-5.83,2.77-10.84,9.87-18.7l8.15-9c6.73-7.48,7.48-12.71,2.39-17.8s-11.74-5.46-16.15-1c-1.87,1.87-2.24,3.44-1.2,4.49a2.37,2.37,0,0,0,1.8.75A5.29,5.29,0,0,1,40,13.58a4.67,4.67,0,0,1-.3,6.43,5.71,5.71,0,0,1-7.93,0c-3.29-3.29-2.24-9.87,2.39-14.51a15.45,15.45,0,0,1,22.21.07,15.66,15.66,0,0,1,4.71,13.84c-0.9,4-3.66,8.3-8.82,13.46l-1.35,1.35-1.2,1.2a17.92,17.92,0,0,1,1.79-.3c5.24-.9,10.1.82,14.21,4.94,10.4,10.4,7.63,31-6.06,44.65-13.46,13.46-32.31,15.56-43.15,4.71-5.76-5.76-7.4-13.54-4.19-20.49a23.75,23.75,0,0,1,2.39-4l-0.9-.3A17.81,17.81,0,0,1,7.06,60.4c-7.48-7.48-7-20.87,1-28.79,4.86-4.86,12-5.76,15.71-2.09,2.47,2.47,3.37,7,2.24,11.67Z"/></svg>
+
+
+        </div>
+      </div>
+
+      <div class="interaction--see-more--holder article_see-more--holder" id="1">
+
+        <div class="interaction--label article_label interaction--blink" title="blink1" id="1">
+
+
+          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 35"><title>skinnierSecondary_boxxxxy-flipped use</title><path d="M143,1.44V8.61a6.35,6.35,0,0,1-1.39,4.24,10.66,10.66,0,0,1-3.74,2.83,20.56,20.56,0,0,1-5.31,1.92,37.36,37.36,0,0,1-6.07.84H102.1c-4.46,0-8.33.15-11.58,1.15a34,34,0,0,0-8.07,3.3,23.07,23.07,0,0,0-4.89,3.86c-1.14,1.27-1.89,2.7-2.23,2.7H75c-0.23,0-.92-1.5-2.06-2.77a22.68,22.68,0,0,0-5-3.92,36.13,36.13,0,0,0-8.15-3.15c-3.26-1-7.12-1.16-11.59-1.16H24a37.83,37.83,0,0,1-6.26-.84,20.69,20.69,0,0,1-5.32-1.75,11.35,11.35,0,0,1-3.87-2.91A6.69,6.69,0,0,1,7,8.61V1.44H1V9.27A13.07,13.07,0,0,0,6.39,20.34c3.55,2.55,8.55,4.1,14.86,4.1h24.1a89.41,89.41,0,0,1,9.47.22,34,34,0,0,1,8.23,1.7,15.77,15.77,0,0,1,5.74,4C70.23,31.81,71,33.44,71,36.44h8c0-3,.72-4.7,2.16-6.19a15.46,15.46,0,0,1,5.74-3.8A34.1,34.1,0,0,1,95,24.78a87.14,87.14,0,0,1,9.39-.34h24.27c6.21,0,11.24-1.55,14.84-4.1A13.06,13.06,0,0,0,149,9.27V1.44h-6Z" transform="translate(-1 -1.44)"/></svg>
+
+          <p class="article_learn-more">Tap each student to learn more about their&nbsp;role</p>
+        </div>
+
+        <div class="interaction--show article_show" id="1" title="olivia">
+          <h3 class="article_student-researcher--name olivia">Olivia Konys</h3>
+          <p class="italic article_student-researcher--title olivia">Design and Production</p>
+
+          <p>As the student design lead on this project, I developed all phases of design, prioritized layout, and designed the graphics and visual resources to develop the brand of the app articles. My background in design with intent for print prepared me well for text heavy content that has evolved with the addition of digital devices as the reading intent.</p>
+
+          <p>I have a primary interest in editorial publishing and communication design, so this opportunity to become involved in a new release and current workflow of digital graphic journalism was very enticing. This project particularly challenged me in ways of organizing concepts prior to visuals through the addition of the DPS web portal.</p>
+
+          <p>In discovering a relationship between proportionate text and visuals, and how that relationship is aided by the Adobe Digital Publishing Solution workflow, I discovered the brand of the app. This too came with the challenge of design appeal for interactivity as we see in live-updated news web and app sources.</p>
+        </div>
+
+        <div  class="interaction--show article_show" id="1" title="hayden">
+          <h3 class="article_student-researcher--name hayden">Hayden Wagner</h3>
+          <p class="italic article_student-researcher--title hayden">Development and User Interaction</p>
+
+          <p>This project gave me an opportunity to explore and work with many technologies and languages that I have been exposed to in the Media Arts and Technology program, including JavaScript, D3.js, HTML5, CSS3, and Sass. For this project I used these technologies to design and develop interactive app elements.</p>
+
+          <p>My past technical experience has been with web design and development. I spent a large amount of time at the beginning of this project learning and practicing JavaScript and D3.js (a JavaScript visualization library). After this phase I transitioned into brainstorming and then development of interactive articles.</p>
+
+          <p class="interaction--read-more">My other major responsibilities for this project were developing, managing, and submitting the actual iOS and Android apps. I learned the workflow and requirements of the new DPS software, and the iOS and Android platforms, to manage the assets, certificates, and settings that were required to produce and publish the apps.</p>
+        </div>
+
+        <div class="interaction_bottom-shadow" id="1"></div>
+
+
+      </div>
+
+      <div class="interaction--button interaction--see-more--button interaction--see-more--button--default-hidden interaction--blink article_button--read-more" title="blink3" id="1">
+        <p>+ Read More</p>
+      </div>
+
+
+      <h2>Advisors</h2>
+
+      <div class="template_img-div article_img-div--graham-christine">
+
+        <img class="interaction--touch christine" id="2" title="christine" src="assets/christine_3x3_150.png"/>
+
+        <div class="interaction--active-signifier article_active-signifier christine" id="2" title="christine">
+          <svg class="christine-svg" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style></defs><title>Circle_editted-artboards</title><circle class="cls-1" cx="50.85" cy="45.41" r="43.93"/><circle class="cls-1" cx="45.74" cy="52.2" r="43.93"/><circle class="cls-1" cx="50.85" cy="55.07" r="43.93"/><circle class="cls-1" cx="52.19" cy="51.74" r="42.58" transform="translate(-3.33 99.88) rotate(-85.68)"/><circle class="cls-1" cx="55.9" cy="51.74" r="42.58" transform="translate(0.1 103.58) rotate(-85.68)"/></svg>
+        </div>
+
+        <img class="interaction--touch graham" id="2" title="graham" src="assets/Graham_Ukecopy_3x3_150.png"/>
+        <div class="interaction--active-signifier article_active-signifier graham" id="2" title="graham">
+          <svg class="graham-svg" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 100"><defs><style>.cls-1,.cls-3{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{stroke:#000;stroke-miterlimit:10;}.cls-4{clip-path:url(#clip-path-2);}.cls-5{clip-path:url(#clip-path-3);}</style><clipPath id="clip-path"><rect class="cls-1" x="22.68" y="3.45" width="70.05" height="106.81" transform="translate(58.32 137.87) rotate(-135)"/></clipPath><clipPath id="clip-path-2"><rect class="cls-1" x="24.53" y="-8.4" width="61.93" height="94.43" transform="translate(112.58 75.26) rotate(177.59)"/></clipPath><clipPath id="clip-path-3"><rect class="cls-1" x="16.03" y="-11.34" width="53.71" height="81.9" transform="translate(93.71 18.06) rotate(132.59)"/></clipPath></defs><title>Circle_editted-artboards</title><g class="cls-2"><circle class="cls-3" cx="35.5" cy="46.83" r="50.92"/></g><g class="cls-4"><circle class="cls-3" cx="35.68" cy="47.28" r="45.02" transform="translate(-23.27 41.56) rotate(-47.41)"/></g><g class="cls-5"><circle class="cls-3" cx="35.93" cy="46.95" r="39.04" transform="translate(-1.95 1.55) rotate(-2.41)"/></g></svg>
+        </div>
+
+      </div>
+
+      <div class="interaction--see-more--holder article_see-more--holder" id="2">
+
+        <div class="interaction--label article_label christine-graham interaction--blink" title="blink4" id="2">
+
+          <!--<hr class="article_hr--thick">-->
+
+          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 35"><title>skinnierSecondary_boxxxxy-flipped use</title><path d="M143,1.44V8.61a6.35,6.35,0,0,1-1.39,4.24,10.66,10.66,0,0,1-3.74,2.83,20.56,20.56,0,0,1-5.31,1.92,37.36,37.36,0,0,1-6.07.84H102.1c-4.46,0-8.33.15-11.58,1.15a34,34,0,0,0-8.07,3.3,23.07,23.07,0,0,0-4.89,3.86c-1.14,1.27-1.89,2.7-2.23,2.7H75c-0.23,0-.92-1.5-2.06-2.77a22.68,22.68,0,0,0-5-3.92,36.13,36.13,0,0,0-8.15-3.15c-3.26-1-7.12-1.16-11.59-1.16H24a37.83,37.83,0,0,1-6.26-.84,20.69,20.69,0,0,1-5.32-1.75,11.35,11.35,0,0,1-3.87-2.91A6.69,6.69,0,0,1,7,8.61V1.44H1V9.27A13.07,13.07,0,0,0,6.39,20.34c3.55,2.55,8.55,4.1,14.86,4.1h24.1a89.41,89.41,0,0,1,9.47.22,34,34,0,0,1,8.23,1.7,15.77,15.77,0,0,1,5.74,4C70.23,31.81,71,33.44,71,36.44h8c0-3,.72-4.7,2.16-6.19a15.46,15.46,0,0,1,5.74-3.8A34.1,34.1,0,0,1,95,24.78a87.14,87.14,0,0,1,9.39-.34h24.27c6.21,0,11.24-1.55,14.84-4.1A13.06,13.06,0,0,0,149,9.27V1.44h-6Z" transform="translate(-1 -1.44)"/></svg>
+
+          <p class="article_learn-more">Tap each advisor to learn more about their&nbsp;role</p>
+
+        </div>
+
+        <div class="interaction--show article_show" id="2" title="christine">
+          <h3 class="article_advisor--name christine" >Christine Heusner</h3>
+
+          <h4>General Bio</h4>
+          <p>Christine teaches courses in magazine publishing, photography, imaging workflows, retouching, typography and page design with a focus on critical thinking and project management. She is an exhibiting artist and her photographic work has been shown internationally. Prior to RIT, she worked in photographic studios specializing in commercial and portrait photography, design and fine-art printing.</p>
+
+          <h4>App Involvement</h4>
+          <p>I advised toward project management, layout, design, and a sustainable workflow for the project that allows for broader student and faculty involvement in the future. As a mentor, my goal was to allow the students to not only enhance their skill set and challenge their creativity, but also interact with professionals and professors as a collaborator.</p>
+
+          <p>The interactive and versatile qualities of DPS, along with the ability to update and push content quickly, allows us to interact and educate our broad audience of alum, prospective students, current students, faculty and staff about the school in a medium that mirrors the combination of art and technology that our school applies in its education.</p>
+        </div>
+
+        <div class="interaction--show article_show" id="2" title="graham">
+          <h3 class="article_advisor--name graham" >Graham Anthony</h3>
+          <h4>General Bio</h4>
+          <p>Graham teaches courses in HTML/CSS, JavaScript, Information Architecture, Digital Asset Management, and Cross-Media Publishing with a focus on information technology solutions, workflow integration, user experience, and software development. Prior to his current position as a lecturer, Graham worked to integrate hardware and software into the School of Media Sciences curriculum and as a development engineer in various capacities around the world.</p>
+
+          <h4>App Involvement</h4>
+
+          <p>I advised toward project management, the programming workflow, potential avenues for interactivity, and responsive content design for the project. My goal was to help the students recognize and appreciate the amount of effort required to make content work across a range of devices.</p>
+
+          <p>I believe the project offers students the opportunity to work with content in a way that reflects the changing nature of both the publishing industry and the technical realities associated with content delivery. Additionally, the project provided the students with the ability to look at their workflows and understand areas that were a potential bottleneck in the process.</p>
+        </div>
+
+      <div class="interaction_bottom-shadow" id="2"></div>
+
+      </div>
+
+      <div class="interaction--button interaction--see-more--button interaction--see-more--button--default-hidden interaction--blink article_button--read-more" title="blink5" id="2">
+        <p>+ Read More</p>
+      </div>
+
+      <div class="article_accordion-holder">
+        <div class="interaction--see-more--holder article_see-more--holder article_see-more--holder--drop-down" id="4">
+          <h2 class="article_accordion interaction_accordion interaction--button interaction--see-more--button article_button--read-more" id="4">Project Sponsor <span>+</span></h2>
+          <h3 class="article_accordion-items">Ivan Mironchuk</h3>
+          <p class="article_accordion-items">Senior Project Marketing Director - Digital Publishing at Adobe</p>
+          <p class="article_accordion-items">New Media Publishing ‘02, Masters in Print Media ‘03</p>
+        </div>
+
+        <div class="interaction--see-more--holder article_see-more--holder article_see-more--holder--drop-down" id="5">
+          <h2 class="article_accordion interaction_accordion interaction--button interaction--see-more--button" id="5">Additional Thanks <span>+</span></h2>
+
+          <h3 class="article_accordion-items">Bob Fleck</h3>
+          <p class="article_accordion-items">Lead Systems Administrator - RIT College of Imaging Arts and Sciences</p>
+
+          <h3 class="article_accordion-items">Ryan Kalt</h3>
+          <p class="article_accordion-items">Creative Assistant</p>
+          <p class="article_accordion-items">Media Arts and Technology ‘16</p>
+
+          <h3 class="article_accordion-items">SMS Connect</h3>
+          <p class="article_accordion-items">Academic focus group - School of Media Sciences</p>
+
+          <h3 class="article_accordion-items">Background pattern from subtlepatterns.com</h3>
+        </div>
+      </div>
+
+
+    </div><!--end container div-->
+    <div id="shittyHeight"></div>
+
+    <script>
+
+      //------------ Start Disable Nav Dropdown ------------------------
+      //Use to cancel nav dropdown on touch of interactive elements
+
+      //Get and store an array of elements based on a class with jquery.
+      //Replace "interaction--touch" with the classname.
+      //Do this for ever class of interactive elements
+      var touchArray = $( '.interaction--touch' ).toArray();
+      var buttonArray = $( '.interaction--see-more--button' ).toArray();
+
+      //Combine the arrays of interactive elements into one single array
+      var combinedArrays = touchArray.concat( buttonArray );
+
+      //Call to function in 'api.js' that will use the DPS Gesture API to disableNavigation on touch
+      api.disableNavDropdown(combinedArrays);
+      //------------ End Disable Nav Dropdown ------------------------
+
+
+
+      $( document ).ready( function() {
+        dpsInteractions.base();
+        dpsInteractions.tap.setUp();
+      });
+
+    </script>
+
+  </body>
+</html>
